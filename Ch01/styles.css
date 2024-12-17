@@ -1,0 +1,42 @@
+/* src/styles.css */
+
+.virtual-pet-container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+}
+
+.pet-stats {
+  margin: 20px 0;
+  padding: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.pet-controls {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  max-width: 300px;
+  margin: 0 auto;
+}
+
+.pet-controls button {
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #764ABC;
+  color: white;
+  cursor: pointer;
+}
+
+.pet-controls button:hover {
+  background-color: #593d8f;
+}
+
+.pet-controls input {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
